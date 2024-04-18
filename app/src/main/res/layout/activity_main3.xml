@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#B3E5FC"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="406dp"
+                android:layout_height="726dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt1"
+                    style="@style/chatstyle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="87dp"
+                    android:background="#E1975DA1"
+                    android:text="@string/chat3.1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    style="@style/chatstyle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="109dp"
+                    android:background="@color/design_default_color_secondary"
+                    android:gravity="center"
+                    android:text="@string/chat3.2"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    style="@style/chatstyle1"
+                    android:layout_width="360dp"
+                    android:layout_height="120dp"
+                    android:background="@color/material_dynamic_tertiary50"
+                    android:gravity="center"
+                    android:text="@string/chat3.3"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    style="@style/chatstyle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="#58B000"
+                    android:text="@string/chat3.4"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txt5"
+                    style="@style/chatstyle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="87dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="#DCB93C"
+                    android:text="@string/chat3.5"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txt6"
+                    style="@style/chatstyle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="87dp"
+                    android:layout_margin="10dp"
+                    android:background="?android:attr/colorActivatedHighlight"
+                    android:text="@string/chat3.6"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

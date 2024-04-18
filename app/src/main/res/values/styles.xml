@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textstyle1">
+        <item name="android:layout_width">269dp</item>
+        <item name="android:layout_height">124dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="chatstyle1" parent="textstyle1">
+        <item name="android:layout_width">285dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/roundedcorner</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="chatstyle2" parent="chatstyle1">
+        <item name="android:layout_width">257dp</item>
+        <item name="android:layout_height">101dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="imagestyle">
+        <item name="android:layout_width">282dp</item>
+        <item name="android:layout_height">217dp</item>
+        <item name="android:layout_marginLeft">45dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+</resources>
